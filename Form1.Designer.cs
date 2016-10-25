@@ -37,6 +37,9 @@
             DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
             DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
             DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation1 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
+            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem2 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
             this.stylesRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.StylesRibbonPageGroup();
             this.galleryChangeStyleItem1 = new DevExpress.XtraRichEdit.UI.GalleryChangeStyleItem();
             this.splitContainerControl = new DevExpress.XtraEditors.SplitContainerControl();
@@ -303,6 +306,7 @@
             this.printItem1 = new DevExpress.XtraRichEdit.UI.PrintItem();
             this.printPreviewItem1 = new DevExpress.XtraRichEdit.UI.PrintPreviewItem();
             this.showDocumentPropertiesFormItem1 = new DevExpress.XtraRichEdit.UI.ShowDocumentPropertiesFormItem();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonImageCollectionLarge = new DevExpress.Utils.ImageCollection(this.components);
             this.floatingPictureToolsRibbonPageCategory1 = new DevExpress.XtraRichEdit.UI.FloatingPictureToolsRibbonPageCategory();
             this.floatingPictureToolsFormatPage1 = new DevExpress.XtraRichEdit.UI.FloatingPictureToolsFormatPage();
@@ -689,10 +693,11 @@
             this.quickPrintItem1,
             this.printItem1,
             this.printPreviewItem1,
-            this.showDocumentPropertiesFormItem1});
+            this.showDocumentPropertiesFormItem1,
+            this.barButtonItem1});
             this.ribbonControl.LargeImages = this.ribbonImageCollectionLarge;
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 308;
+            this.ribbonControl.MaxItemId = 2;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
             this.floatingPictureToolsRibbonPageCategory1,
@@ -761,12 +766,14 @@
             this.fileOpenItem1.Caption = "打开";
             this.fileOpenItem1.Id = 299;
             this.fileOpenItem1.Name = "fileOpenItem1";
+            this.fileOpenItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.fileOpen_ItemClick);
             // 
             // fileSaveItem1
             // 
             this.fileSaveItem1.Caption = "保存";
             this.fileSaveItem1.Id = 300;
             this.fileSaveItem1.Name = "fileSaveItem1";
+            this.fileSaveItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.fileSave_ItemClick);
             // 
             // iExit
             // 
@@ -777,6 +784,7 @@
             this.iExit.ImageIndex = 6;
             this.iExit.LargeImageIndex = 6;
             this.iExit.Name = "iExit";
+            this.iExit.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.iExit_ItemClick);
             // 
             // popupControlContainer1
             // 
@@ -834,17 +842,18 @@
             this.iAbout.ImageIndex = 8;
             this.iAbout.LargeImageIndex = 8;
             this.iAbout.Name = "iAbout";
+            this.iAbout.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.iAbout_ItemClick);
             // 
             // siStatus
             // 
-            this.siStatus.Caption = "这里是状态";
+            this.siStatus.Caption = "常规";
             this.siStatus.Id = 31;
             this.siStatus.Name = "siStatus";
             this.siStatus.TextAlignment = System.Drawing.StringAlignment.Near;
             // 
             // siInfo
             // 
-            this.siInfo.Caption = "|状态介绍";
+            this.siInfo.Caption = "页面 1/1 ";
             this.siInfo.Id = 32;
             this.siInfo.Name = "siInfo";
             this.siInfo.TextAlignment = System.Drawing.StringAlignment.Near;
@@ -1697,7 +1706,7 @@
             // 
             // changeSectionPageMarginsItem1
             // 
-            this.changeSectionPageMarginsItem1.Caption = "页面边距";
+            this.changeSectionPageMarginsItem1.Caption = "页边距";
             this.changeSectionPageMarginsItem1.Id = 201;
             this.changeSectionPageMarginsItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.setNormalSectionPageMarginsItem1),
@@ -1790,6 +1799,7 @@
             // 
             // insertBreakItem1
             // 
+            this.insertBreakItem1.Caption = "添加新页";
             this.insertBreakItem1.Id = 216;
             this.insertBreakItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.insertPageBreakItem1),
@@ -1826,6 +1836,7 @@
             // 
             // changeSectionLineNumberingItem1
             // 
+            this.changeSectionLineNumberingItem1.Caption = "行数";
             this.changeSectionLineNumberingItem1.Id = 222;
             this.changeSectionLineNumberingItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.setSectionLineNumberingNoneItem1),
@@ -1868,6 +1879,7 @@
             // 
             // changePageColorItem1
             // 
+            this.changePageColorItem1.Caption = "界面颜色";
             this.changePageColorItem1.Id = 229;
             this.changePageColorItem1.Name = "changePageColorItem1";
             // 
@@ -2307,6 +2319,7 @@
             this.fileSaveAsItem1.Caption = "另存为";
             this.fileSaveAsItem1.Id = 301;
             this.fileSaveAsItem1.Name = "fileSaveAsItem1";
+            this.fileSaveAsItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.fileSave_ItemClick);
             // 
             // quickPrintItem1
             // 
@@ -2332,6 +2345,12 @@
             this.showDocumentPropertiesFormItem1.Id = 305;
             this.showDocumentPropertiesFormItem1.Name = "showDocumentPropertiesFormItem1";
             // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "barButtonItem1";
+            this.barButtonItem1.Id = 1;
+            this.barButtonItem1.Name = "barButtonItem1";
+            // 
             // ribbonImageCollectionLarge
             // 
             this.ribbonImageCollectionLarge.ImageSize = new System.Drawing.Size(32, 32);
@@ -2353,7 +2372,9 @@
             this.floatingPictureToolsFormatPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.floatingPictureToolsShapeStylesPageGroup1,
             this.floatingPictureToolsArrangePageGroup1});
+            this.floatingPictureToolsFormatPage1.ImageAlign = DevExpress.Utils.HorzAlignment.Center;
             this.floatingPictureToolsFormatPage1.Name = "floatingPictureToolsFormatPage1";
+            this.floatingPictureToolsFormatPage1.Text = "图片格式";
             // 
             // floatingPictureToolsShapeStylesPageGroup1
             // 
@@ -2388,6 +2409,7 @@
             this.tableCellSizeRibbonPageGroup1,
             this.tableAlignmentRibbonPageGroup1});
             this.tableLayoutRibbonPage1.Name = "tableLayoutRibbonPage1";
+            this.tableLayoutRibbonPage1.Text = "布局";
             // 
             // tableTableRibbonPageGroup1
             // 
@@ -2440,6 +2462,7 @@
             this.tableStylesRibbonPageGroup1,
             this.tableDrawBordersRibbonPageGroup1});
             this.tableDesignRibbonPage1.Name = "tableDesignRibbonPage1";
+            this.tableDesignRibbonPage1.Text = "设计";
             // 
             // tableStyleOptionsRibbonPageGroup1
             // 
@@ -2480,6 +2503,7 @@
             this.headerFooterToolsDesignOptionsRibbonPageGroup1,
             this.headerFooterToolsDesignCloseRibbonPageGroup1});
             this.headerFooterToolsDesignRibbonPage1.Name = "headerFooterToolsDesignRibbonPage1";
+            this.headerFooterToolsDesignRibbonPage1.Text = "设计";
             // 
             // headerFooterToolsDesignNavigationRibbonPageGroup1
             // 
@@ -2517,17 +2541,18 @@
             this.commonRibbonPageGroup1.ItemLinks.Add(this.fileOpenItem1);
             this.commonRibbonPageGroup1.ItemLinks.Add(this.fileSaveItem1);
             this.commonRibbonPageGroup1.ItemLinks.Add(this.fileSaveAsItem1);
-            this.commonRibbonPageGroup1.ItemLinks.Add(this.quickPrintItem1);
-            this.commonRibbonPageGroup1.ItemLinks.Add(this.printItem1);
-            this.commonRibbonPageGroup1.ItemLinks.Add(this.printPreviewItem1);
             this.commonRibbonPageGroup1.Name = "commonRibbonPageGroup1";
             this.commonRibbonPageGroup1.Text = "常用";
             // 
             // infoRibbonPageGroup1
             // 
             this.infoRibbonPageGroup1.ItemLinks.Add(this.showDocumentPropertiesFormItem1);
+            this.infoRibbonPageGroup1.ItemLinks.Add(this.quickPrintItem1);
+            this.infoRibbonPageGroup1.ItemLinks.Add(this.printItem1);
+            this.infoRibbonPageGroup1.ItemLinks.Add(this.printPreviewItem1);
+            this.infoRibbonPageGroup1.ItemLinks.Add(this.iExit);
             this.infoRibbonPageGroup1.Name = "infoRibbonPageGroup1";
-            this.infoRibbonPageGroup1.Text = "介绍";
+            this.infoRibbonPageGroup1.Text = "其他";
             // 
             // homeRibbonPage1
             // 
@@ -2661,12 +2686,14 @@
             this.pageSetupRibbonPageGroup1.ItemLinks.Add(this.insertBreakItem1);
             this.pageSetupRibbonPageGroup1.ItemLinks.Add(this.changeSectionLineNumberingItem1);
             this.pageSetupRibbonPageGroup1.Name = "pageSetupRibbonPageGroup1";
+            this.pageSetupRibbonPageGroup1.Text = "页面主选项";
             // 
             // pageBackgroundRibbonPageGroup1
             // 
             this.pageBackgroundRibbonPageGroup1.AllowTextClipping = false;
             this.pageBackgroundRibbonPageGroup1.ItemLinks.Add(this.changePageColorItem1);
             this.pageBackgroundRibbonPageGroup1.Name = "pageBackgroundRibbonPageGroup1";
+            this.pageBackgroundRibbonPageGroup1.Text = "背景";
             // 
             // referencesRibbonPage1
             // 
@@ -2784,7 +2811,13 @@
             this.skinsRibbonPageGroup.ItemLinks.Add(this.rgbiSkins);
             this.skinsRibbonPageGroup.Name = "skinsRibbonPageGroup";
             this.skinsRibbonPageGroup.ShowCaptionButton = false;
-            this.skinsRibbonPageGroup.Text = "Skins";
+            toolTipTitleItem2.Text = "皮肤";
+            toolTipItem2.LeftIndent = 6;
+            toolTipItem2.Text = "选择你自己喜欢的皮肤";
+            superToolTip2.Items.Add(toolTipTitleItem2);
+            superToolTip2.Items.Add(toolTipItem2);
+            this.skinsRibbonPageGroup.SuperTip = superToolTip2;
+            this.skinsRibbonPageGroup.Text = "皮肤";
             // 
             // helpRibbonPage
             // 
@@ -3083,6 +3116,7 @@
             this.Controls.Add(this.popupControlContainer2);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbonControl);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Word 编辑器 - 2143521王劲翔";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
@@ -3442,5 +3476,6 @@
         private DevExpress.XtraRichEdit.UI.ShowRibbonPageGroup showRibbonPageGroup1;
         private DevExpress.XtraRichEdit.UI.ZoomRibbonPageGroup zoomRibbonPageGroup1;
         private DevExpress.XtraRichEdit.UI.RichEditBarController richEditBarController1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
     }
 }
