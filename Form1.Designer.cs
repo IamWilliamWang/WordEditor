@@ -30,13 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup3 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
-            DevExpress.XtraSpellChecker.OptionsSpelling optionsSpelling2 = new DevExpress.XtraSpellChecker.OptionsSpelling();
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup4 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
-            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem2 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation2 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup1 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraSpellChecker.OptionsSpelling optionsSpelling1 = new DevExpress.XtraSpellChecker.OptionsSpelling();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup2 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation1 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
             this.stylesRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.StylesRibbonPageGroup();
             this.galleryChangeStyleItem1 = new DevExpress.XtraRichEdit.UI.GalleryChangeStyleItem();
             this.splitContainerControl = new DevExpress.XtraEditors.SplitContainerControl();
@@ -45,6 +45,8 @@
             this.appMenu = new DevExpress.XtraBars.Ribbon.ApplicationMenu(this.components);
             this.popupControlContainer2 = new DevExpress.XtraBars.PopupControlContainer(this.components);
             this.buttonEdit = new DevExpress.XtraEditors.ButtonEdit();
+            this.fileOpenItem1 = new DevExpress.XtraRichEdit.UI.FileOpenItem();
+            this.fileSaveItem1 = new DevExpress.XtraRichEdit.UI.FileSaveItem();
             this.iExit = new DevExpress.XtraBars.BarButtonItem();
             this.popupControlContainer1 = new DevExpress.XtraBars.PopupControlContainer(this.components);
             this.someLabelControl2 = new DevExpress.XtraEditors.LabelControl();
@@ -296,8 +298,6 @@
             this.undoItem1 = new DevExpress.XtraRichEdit.UI.UndoItem();
             this.redoItem1 = new DevExpress.XtraRichEdit.UI.RedoItem();
             this.fileNewItem1 = new DevExpress.XtraRichEdit.UI.FileNewItem();
-            this.fileOpenItem1 = new DevExpress.XtraRichEdit.UI.FileOpenItem();
-            this.fileSaveItem1 = new DevExpress.XtraRichEdit.UI.FileSaveItem();
             this.fileSaveAsItem1 = new DevExpress.XtraRichEdit.UI.FileSaveAsItem();
             this.quickPrintItem1 = new DevExpress.XtraRichEdit.UI.QuickPrintItem();
             this.printItem1 = new DevExpress.XtraRichEdit.UI.PrintItem();
@@ -401,7 +401,7 @@
             // 
             this.galleryChangeStyleItem1.Gallery.ColumnCount = 10;
             this.galleryChangeStyleItem1.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup3});
+            galleryItemGroup1});
             this.galleryChangeStyleItem1.Gallery.ImageSize = new System.Drawing.Size(65, 46);
             this.galleryChangeStyleItem1.Id = 293;
             this.galleryChangeStyleItem1.Name = "galleryChangeStyleItem1";
@@ -409,13 +409,13 @@
             // splitContainerControl
             // 
             this.splitContainerControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerControl.Location = new System.Drawing.Point(0, 145);
+            this.splitContainerControl.Location = new System.Drawing.Point(0, 120);
             this.splitContainerControl.Name = "splitContainerControl";
             this.splitContainerControl.Padding = new System.Windows.Forms.Padding(6);
             this.splitContainerControl.Panel1.Text = "Panel1";
             this.splitContainerControl.Panel2.Controls.Add(this.richEditControl);
             this.splitContainerControl.Panel2.Text = "Panel2";
-            this.splitContainerControl.Size = new System.Drawing.Size(1100, 528);
+            this.splitContainerControl.Size = new System.Drawing.Size(1100, 553);
             this.splitContainerControl.SplitterPosition = 0;
             this.splitContainerControl.TabIndex = 0;
             this.splitContainerControl.Text = "splitContainerControl1";
@@ -427,9 +427,9 @@
             this.richEditControl.Location = new System.Drawing.Point(0, 0);
             this.richEditControl.MenuManager = this.ribbonControl;
             this.richEditControl.Name = "richEditControl";
-            this.richEditControl.Size = new System.Drawing.Size(1083, 516);
+            this.richEditControl.Size = new System.Drawing.Size(1083, 541);
             this.richEditControl.SpellChecker = this.spellChecker;
-            this.spellChecker.SetSpellCheckerOptions(this.richEditControl, optionsSpelling2);
+            this.spellChecker.SetSpellCheckerOptions(this.richEditControl, optionsSpelling1);
             this.richEditControl.TabIndex = 1;
             // 
             // ribbonControl
@@ -717,7 +717,7 @@
             this.repositoryItemFontEdit1,
             this.repositoryItemRichEditFontSizeEdit1});
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2010;
-            this.ribbonControl.Size = new System.Drawing.Size(1100, 145);
+            this.ribbonControl.Size = new System.Drawing.Size(1100, 120);
             this.ribbonControl.StatusBar = this.ribbonStatusBar;
             this.ribbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
             // 
@@ -756,6 +756,18 @@
             this.buttonEdit.Size = new System.Drawing.Size(100, 20);
             this.buttonEdit.TabIndex = 0;
             // 
+            // fileOpenItem1
+            // 
+            this.fileOpenItem1.Caption = "打开";
+            this.fileOpenItem1.Id = 299;
+            this.fileOpenItem1.Name = "fileOpenItem1";
+            // 
+            // fileSaveItem1
+            // 
+            this.fileSaveItem1.Caption = "保存";
+            this.fileSaveItem1.Id = 300;
+            this.fileSaveItem1.Name = "fileSaveItem1";
+            // 
             // iExit
             // 
             this.iExit.Caption = "退出";
@@ -765,7 +777,6 @@
             this.iExit.ImageIndex = 6;
             this.iExit.LargeImageIndex = 6;
             this.iExit.Name = "iExit";
-            this.iExit.ItemClick += IExit_ItemClick;
             // 
             // popupControlContainer1
             // 
@@ -785,7 +796,7 @@
             // 
             this.someLabelControl2.Location = new System.Drawing.Point(3, 57);
             this.someLabelControl2.Name = "someLabelControl2";
-            this.someLabelControl2.Size = new System.Drawing.Size(57, 14);
+            this.someLabelControl2.Size = new System.Drawing.Size(48, 14);
             this.someLabelControl2.TabIndex = 0;
             this.someLabelControl2.Text = "一些介绍";
             // 
@@ -793,7 +804,7 @@
             // 
             this.someLabelControl1.Location = new System.Drawing.Point(3, 3);
             this.someLabelControl1.Name = "someLabelControl1";
-            this.someLabelControl1.Size = new System.Drawing.Size(57, 14);
+            this.someLabelControl1.Size = new System.Drawing.Size(89, 14);
             this.someLabelControl1.TabIndex = 0;
             this.someLabelControl1.Text = "2143521 王劲翔";
             // 
@@ -823,7 +834,6 @@
             this.iAbout.ImageIndex = 8;
             this.iAbout.LargeImageIndex = 8;
             this.iAbout.Name = "iAbout";
-            this.iAbout.ItemClick += IAbout_ItemClick;
             // 
             // siStatus
             // 
@@ -1077,7 +1087,7 @@
             // 
             this.galleryChangeTableStyleItem1.Gallery.ColumnCount = 3;
             this.galleryChangeTableStyleItem1.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup4});
+            galleryItemGroup2});
             this.galleryChangeTableStyleItem1.Gallery.ImageSize = new System.Drawing.Size(65, 46);
             this.galleryChangeTableStyleItem1.Id = 96;
             this.galleryChangeTableStyleItem1.ModifyItemLink = null;
@@ -2274,11 +2284,11 @@
             this.undoItem1.Caption = "撤销";
             this.undoItem1.Id = 296;
             this.undoItem1.Name = "undoItem1";
-            toolTipTitleItem2.Text = "Undo (Ctrl+Z)";
-            toolTipItem2.Text = "Undo the last operation.";
-            superToolTip2.Items.Add(toolTipTitleItem2);
-            superToolTip2.Items.Add(toolTipItem2);
-            this.undoItem1.SuperTip = superToolTip2;
+            toolTipTitleItem1.Text = "Undo (Ctrl+Z)";
+            toolTipItem1.Text = "Undo the last operation.";
+            superToolTip1.Items.Add(toolTipTitleItem1);
+            superToolTip1.Items.Add(toolTipItem1);
+            this.undoItem1.SuperTip = superToolTip1;
             // 
             // redoItem1
             // 
@@ -2291,18 +2301,6 @@
             this.fileNewItem1.Caption = "新建";
             this.fileNewItem1.Id = 298;
             this.fileNewItem1.Name = "fileNewItem1";
-            // 
-            // fileOpenItem1
-            // 
-            this.fileOpenItem1.Caption = "打开";
-            this.fileOpenItem1.Id = 299;
-            this.fileOpenItem1.Name = "fileOpenItem1";
-            // 
-            // fileSaveItem1
-            // 
-            this.fileSaveItem1.Caption = "保存";
-            this.fileSaveItem1.Id = 300;
-            this.fileSaveItem1.Name = "fileSaveItem1";
             // 
             // fileSaveAsItem1
             // 
@@ -2540,12 +2538,12 @@
             this.stylesRibbonPageGroup1,
             this.editingRibbonPageGroup1});
             this.homeRibbonPage1.Name = "homeRibbonPage1";
-            reduceOperation2.Behavior = DevExpress.XtraBars.Ribbon.ReduceOperationBehavior.UntilAvailable;
-            reduceOperation2.Group = this.stylesRibbonPageGroup1;
-            reduceOperation2.ItemLinkIndex = 0;
-            reduceOperation2.ItemLinksCount = 0;
-            reduceOperation2.Operation = DevExpress.XtraBars.Ribbon.ReduceOperationType.Gallery;
-            this.homeRibbonPage1.ReduceOperations.Add(reduceOperation2);
+            reduceOperation1.Behavior = DevExpress.XtraBars.Ribbon.ReduceOperationBehavior.UntilAvailable;
+            reduceOperation1.Group = this.stylesRibbonPageGroup1;
+            reduceOperation1.ItemLinkIndex = 0;
+            reduceOperation1.ItemLinksCount = 0;
+            reduceOperation1.Operation = DevExpress.XtraBars.Ribbon.ReduceOperationType.Gallery;
+            this.homeRibbonPage1.ReduceOperations.Add(reduceOperation1);
             this.homeRibbonPage1.Text = "主页";
             // 
             // clipboardRibbonPageGroup1
@@ -3087,6 +3085,7 @@
             this.Controls.Add(this.ribbonControl);
             this.Name = "Form1";
             this.Text = "Word 编辑器 - 2143521王劲翔";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl)).EndInit();
             this.splitContainerControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).EndInit();

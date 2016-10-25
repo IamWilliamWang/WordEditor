@@ -676,9 +676,6 @@
         ggs=
 </value>
   </data>
-  <metadata name="spellChecker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>237, 55</value>
-  </metadata>
   <data name="tableAlignmentRibbonPageGroup1.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAllJREFUOE+l
@@ -713,6 +710,9 @@
         WpPMHjxKaZ9mNI6QY+R4xImIk/+Jioj+D63Z0b/vmQaFiPFiqAAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="spellChecker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>237, 55</value>
+  </metadata>
   <metadata name="navbarImageCollectionLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

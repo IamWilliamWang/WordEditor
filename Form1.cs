@@ -41,5 +41,10 @@ namespace WordEditor
         {
             MessageBox.Show("Word文档编辑器\n支持docx doc rtf txt htm html mht odt xml epub文件","关于");
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
     }
 }
