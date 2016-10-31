@@ -43,6 +43,12 @@ namespace WordEditor
             };
         }
 
+        private void iHelp_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            MessageBox.Show("请打开帮助文档");
+            richEditControl.LoadDocument("help.doc");
+        }
+
         private void iAbout_ItemClick(object sender, ItemClickEventArgs e)
         {
             MessageBox.Show("Word编辑器 - 2143521王劲翔\n支持docx doc rtf txt htm html mht odt xml epub文件", "关于");
@@ -51,10 +57,6 @@ namespace WordEditor
         private void fileSave_ItemClick(object sender, ItemClickEventArgs e)
         {
             hasSaved = true;
-        }
-
-        private void fileOpen_ItemClick(object sender, ItemClickEventArgs e)
-        {
         }
 
         private void iExit_ItemClick(object sender, ItemClickEventArgs e)

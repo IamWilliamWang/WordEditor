@@ -114,3 +114,8 @@ F:\Visual Studio 2015\WordEditor\WordEditor\obj\Debug\WordEditor.exe.licenses
 F:\Visual Studio 2015\WordEditor\WordEditor\obj\Debug\WordEditor.exe
 F:\Visual Studio 2015\WordEditor\WordEditor\obj\Debug\WordEditor.pdb
 F:\Visual Studio 2015\WordEditor\WordEditor\obj\Debug\WordEditor.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2015\WordEditor\WordEditor\bin\Debug\WordEditor.exe.config
+F:\Visual Studio 2015\WordEditor\WordEditor\bin\Debug\WordEditor.exe.manifest
+F:\Visual Studio 2015\WordEditor\WordEditor\bin\Debug\WordEditor.application
+F:\Visual Studio 2015\WordEditor\WordEditor\obj\Debug\WordEditor.exe.manifest
+F:\Visual Studio 2015\WordEditor\WordEditor\obj\Debug\WordEditor.application

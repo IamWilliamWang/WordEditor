@@ -32,14 +32,200 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup1 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
             DevExpress.XtraSpellChecker.OptionsSpelling optionsSpelling1 = new DevExpress.XtraSpellChecker.OptionsSpelling();
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup2 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
             DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
             DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
             DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation1 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
             DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
             DevExpress.Utils.ToolTipTitleItem toolTipTitleItem2 = new DevExpress.Utils.ToolTipTitleItem();
             DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem3 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup2 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem4 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem4 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem5 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem5 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem6 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem6 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem7 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem7 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip8 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem8 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem8 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip9 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem9 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem9 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip10 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem10 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem10 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip11 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem11 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem11 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip12 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem12 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem12 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip13 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem13 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem13 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip14 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem14 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem14 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip15 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem15 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem15 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip16 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem16 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem16 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip17 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem17 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem17 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip18 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem18 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem18 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip19 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem19 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem19 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip20 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem20 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem20 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip21 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem21 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem21 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip22 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem22 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem22 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip23 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem23 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem23 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip24 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem24 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem24 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip25 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem25 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem25 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip26 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem26 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem26 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip27 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem27 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem27 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip28 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem28 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem28 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip29 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem29 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem29 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip30 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem30 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem30 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip31 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem31 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem31 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip33 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem33 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem33 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip32 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem32 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem32 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip34 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem34 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem34 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip35 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem35 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem35 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip36 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem36 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem36 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip37 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem37 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem37 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip38 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem38 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem38 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip39 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem39 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem39 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip40 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem40 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem40 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip41 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem41 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem41 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip42 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem42 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem42 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip43 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem43 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem43 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip44 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem44 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem44 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip45 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem45 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem45 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip46 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem46 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem46 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip47 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem47 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem47 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip48 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem48 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem48 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip49 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem49 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem49 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip50 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem50 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem50 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip51 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem51 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem51 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip52 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem52 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem52 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip53 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem53 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem53 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip54 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem54 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem54 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip55 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem55 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem55 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip56 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem56 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem56 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip57 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem57 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem57 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip58 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem58 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem58 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip59 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem59 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem59 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip60 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem60 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem60 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip61 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem61 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem61 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip62 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem62 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem62 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip63 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem63 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem63 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation1 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
+            DevExpress.Utils.SuperToolTip superToolTip64 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem64 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem64 = new DevExpress.Utils.ToolTipItem();
             this.stylesRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.StylesRibbonPageGroup();
             this.galleryChangeStyleItem1 = new DevExpress.XtraRichEdit.UI.GalleryChangeStyleItem();
             this.splitContainerControl = new DevExpress.XtraEditors.SplitContainerControl();
@@ -697,7 +883,7 @@
             this.barButtonItem1});
             this.ribbonControl.LargeImages = this.ribbonImageCollectionLarge;
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 2;
+            this.ribbonControl.MaxItemId = 202;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
             this.floatingPictureToolsRibbonPageCategory1,
@@ -766,13 +952,24 @@
             this.fileOpenItem1.Caption = "打开";
             this.fileOpenItem1.Id = 299;
             this.fileOpenItem1.Name = "fileOpenItem1";
-            this.fileOpenItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.fileOpen_ItemClick);
+            toolTipTitleItem1.Text = "打开 (Ctrl+O)";
+            toolTipItem1.LeftIndent = 6;
+            toolTipItem1.Text = "打开文档";
+            superToolTip1.Items.Add(toolTipTitleItem1);
+            superToolTip1.Items.Add(toolTipItem1);
+            this.fileOpenItem1.SuperTip = superToolTip1;
             // 
             // fileSaveItem1
             // 
             this.fileSaveItem1.Caption = "保存";
             this.fileSaveItem1.Id = 300;
             this.fileSaveItem1.Name = "fileSaveItem1";
+            toolTipTitleItem2.Text = "保存 (Ctrl+S)";
+            toolTipItem2.LeftIndent = 6;
+            toolTipItem2.Text = "保存文档";
+            superToolTip2.Items.Add(toolTipTitleItem2);
+            superToolTip2.Items.Add(toolTipItem2);
+            this.fileSaveItem1.SuperTip = superToolTip2;
             this.fileSaveItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.fileSave_ItemClick);
             // 
             // iExit
@@ -784,6 +981,12 @@
             this.iExit.ImageIndex = 6;
             this.iExit.LargeImageIndex = 6;
             this.iExit.Name = "iExit";
+            toolTipTitleItem3.Text = "退出 (Ctrl+Esc)";
+            toolTipItem3.LeftIndent = 6;
+            toolTipItem3.Text = "退出此程序";
+            superToolTip3.Items.Add(toolTipTitleItem3);
+            superToolTip3.Items.Add(toolTipItem3);
+            this.iExit.SuperTip = superToolTip3;
             this.iExit.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.iExit_ItemClick);
             // 
             // popupControlContainer1
@@ -832,6 +1035,7 @@
             this.iHelp.ImageIndex = 7;
             this.iHelp.LargeImageIndex = 7;
             this.iHelp.Name = "iHelp";
+            this.iHelp.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.iHelp_ItemClick);
             // 
             // iAbout
             // 
@@ -1433,150 +1637,323 @@
             // 
             // switchToSimpleViewItem1
             // 
+            this.switchToSimpleViewItem1.Caption = "简单试图";
             this.switchToSimpleViewItem1.Id = 153;
             this.switchToSimpleViewItem1.Name = "switchToSimpleViewItem1";
+            toolTipTitleItem4.Text = "简单视图";
+            toolTipItem4.LeftIndent = 6;
+            toolTipItem4.Text = "切换成简单视图\r\n\r\n这种视图忽略了页面布局，只关注文本编辑。";
+            superToolTip4.Items.Add(toolTipTitleItem4);
+            superToolTip4.Items.Add(toolTipItem4);
+            this.switchToSimpleViewItem1.SuperTip = superToolTip4;
             // 
             // switchToDraftViewItem1
             // 
+            this.switchToDraftViewItem1.Caption = "草案视图";
             this.switchToDraftViewItem1.Id = 154;
             this.switchToDraftViewItem1.Name = "switchToDraftViewItem1";
+            toolTipTitleItem5.Text = "草案视图";
+            toolTipItem5.LeftIndent = 6;
+            toolTipItem5.Text = "作为草案快速编辑文本查看文档。\r\n\r\n某些元素文档的页眉和页脚等不会在这个视图中可见。";
+            superToolTip5.Items.Add(toolTipTitleItem5);
+            superToolTip5.Items.Add(toolTipItem5);
+            this.switchToDraftViewItem1.SuperTip = superToolTip5;
             // 
             // switchToPrintLayoutViewItem1
             // 
+            this.switchToPrintLayoutViewItem1.Caption = "页面视图";
             this.switchToPrintLayoutViewItem1.Id = 155;
             this.switchToPrintLayoutViewItem1.Name = "switchToPrintLayoutViewItem1";
+            toolTipTitleItem6.Text = "页面视图";
+            toolTipItem6.LeftIndent = 6;
+            toolTipItem6.Text = "以文档将会打印的形式显示";
+            superToolTip6.Items.Add(toolTipTitleItem6);
+            superToolTip6.Items.Add(toolTipItem6);
+            this.switchToPrintLayoutViewItem1.SuperTip = superToolTip6;
             // 
             // toggleShowHorizontalRulerItem1
             // 
+            this.toggleShowHorizontalRulerItem1.Caption = "水平标尺";
             this.toggleShowHorizontalRulerItem1.Id = 156;
             this.toggleShowHorizontalRulerItem1.Name = "toggleShowHorizontalRulerItem1";
+            toolTipTitleItem7.Text = "水平标尺";
+            toolTipItem7.LeftIndent = 6;
+            toolTipItem7.Text = "在文档中查看水平尺，用来对其内容。";
+            superToolTip7.Items.Add(toolTipTitleItem7);
+            superToolTip7.Items.Add(toolTipItem7);
+            this.toggleShowHorizontalRulerItem1.SuperTip = superToolTip7;
             // 
             // toggleShowVerticalRulerItem1
             // 
+            this.toggleShowVerticalRulerItem1.Caption = "垂直标尺";
             this.toggleShowVerticalRulerItem1.Id = 157;
             this.toggleShowVerticalRulerItem1.Name = "toggleShowVerticalRulerItem1";
+            toolTipTitleItem8.Text = "垂直标尺";
+            toolTipItem8.LeftIndent = 6;
+            toolTipItem8.Text = "在文档中查看垂直尺，用来对其内容。";
+            superToolTip8.Items.Add(toolTipTitleItem8);
+            superToolTip8.Items.Add(toolTipItem8);
+            this.toggleShowVerticalRulerItem1.SuperTip = superToolTip8;
             // 
             // zoomOutItem1
             // 
+            this.zoomOutItem1.Caption = "缩小";
             this.zoomOutItem1.Id = 158;
             this.zoomOutItem1.Name = "zoomOutItem1";
+            toolTipTitleItem9.Text = "缩小";
+            toolTipItem9.LeftIndent = 6;
+            toolTipItem9.Text = "将整个页面略微缩小";
+            superToolTip9.Items.Add(toolTipTitleItem9);
+            superToolTip9.Items.Add(toolTipItem9);
+            this.zoomOutItem1.SuperTip = superToolTip9;
             // 
             // zoomInItem1
             // 
+            this.zoomInItem1.Caption = "放大";
             this.zoomInItem1.Id = 159;
             this.zoomInItem1.Name = "zoomInItem1";
+            toolTipTitleItem10.Text = "放大";
+            toolTipItem10.LeftIndent = 6;
+            toolTipItem10.Text = "将整个页面略微放大";
+            superToolTip10.Items.Add(toolTipTitleItem10);
+            superToolTip10.Items.Add(toolTipItem10);
+            this.zoomInItem1.SuperTip = superToolTip10;
             // 
             // checkSpellingItem1
             // 
+            this.checkSpellingItem1.Caption = "拼写检查";
             this.checkSpellingItem1.Id = 160;
             this.checkSpellingItem1.Name = "checkSpellingItem1";
+            toolTipTitleItem11.Text = "拼写检查";
+            toolTipItem11.LeftIndent = 6;
+            toolTipItem11.Text = "检查文档中有没有拼写错误";
+            superToolTip11.Items.Add(toolTipTitleItem11);
+            superToolTip11.Items.Add(toolTipItem11);
+            this.checkSpellingItem1.SuperTip = superToolTip11;
             // 
             // changeLanguageItem1
             // 
+            this.changeLanguageItem1.Caption = "语言";
             this.changeLanguageItem1.Id = 161;
             this.changeLanguageItem1.Name = "changeLanguageItem1";
+            toolTipTitleItem12.Text = "语言";
+            toolTipItem12.LeftIndent = 6;
+            toolTipItem12.Text = "设置语言的拼写和语法检查使用所选的文本。";
+            superToolTip12.Items.Add(toolTipTitleItem12);
+            superToolTip12.Items.Add(toolTipItem12);
+            this.changeLanguageItem1.SuperTip = superToolTip12;
             // 
             // protectDocumentItem1
             // 
+            this.protectDocumentItem1.Caption = "加密文档";
             this.protectDocumentItem1.Id = 162;
             this.protectDocumentItem1.Name = "protectDocumentItem1";
+            toolTipTitleItem13.Text = "加密文档";
+            toolTipItem13.LeftIndent = 6;
+            toolTipItem13.Text = "为了防止别人修改，给文档添加密码。";
+            superToolTip13.Items.Add(toolTipTitleItem13);
+            superToolTip13.Items.Add(toolTipItem13);
+            this.protectDocumentItem1.SuperTip = superToolTip13;
             // 
             // changeRangeEditingPermissionsItem1
             // 
+            this.changeRangeEditingPermissionsItem1.Caption = "编辑权限范围";
             this.changeRangeEditingPermissionsItem1.Id = 163;
             this.changeRangeEditingPermissionsItem1.Name = "changeRangeEditingPermissionsItem1";
+            toolTipTitleItem14.Text = "编辑权限范围";
+            toolTipItem14.LeftIndent = 6;
+            toolTipItem14.Text = "授予用户权限编辑所选文档的一部分。";
+            superToolTip14.Items.Add(toolTipTitleItem14);
+            superToolTip14.Items.Add(toolTipItem14);
+            this.changeRangeEditingPermissionsItem1.SuperTip = superToolTip14;
             // 
             // unprotectDocumentItem1
             // 
+            this.unprotectDocumentItem1.Caption = "不再保护文档";
             this.unprotectDocumentItem1.Id = 164;
             this.unprotectDocumentItem1.Name = "unprotectDocumentItem1";
+            toolTipTitleItem15.Text = "不再保护文档";
+            toolTipItem15.LeftIndent = 6;
+            toolTipItem15.Text = "允许所有人编辑此文档。";
+            superToolTip15.Items.Add(toolTipTitleItem15);
+            superToolTip15.Items.Add(toolTipItem15);
+            this.unprotectDocumentItem1.SuperTip = superToolTip15;
             // 
             // newCommentItem1
             // 
+            this.newCommentItem1.Caption = "新批注";
             this.newCommentItem1.Id = 165;
             this.newCommentItem1.Name = "newCommentItem1";
+            toolTipTitleItem16.Text = "新批注";
+            toolTipItem16.LeftIndent = 6;
+            toolTipItem16.Text = "添加一个新批注";
+            superToolTip16.Items.Add(toolTipTitleItem16);
+            superToolTip16.Items.Add(toolTipItem16);
+            this.newCommentItem1.SuperTip = superToolTip16;
             // 
             // deleteCommentsItem1
             // 
+            this.deleteCommentsItem1.Caption = "删除";
             this.deleteCommentsItem1.Id = 166;
             this.deleteCommentsItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.deleteOneCommentItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.deleteAllCommentsShownItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.deleteAllCommentsItem1)});
             this.deleteCommentsItem1.Name = "deleteCommentsItem1";
+            toolTipTitleItem17.Text = "删除";
+            toolTipItem17.LeftIndent = 6;
+            toolTipItem17.Text = "删除批注";
+            superToolTip17.Items.Add(toolTipTitleItem17);
+            superToolTip17.Items.Add(toolTipItem17);
+            this.deleteCommentsItem1.SuperTip = superToolTip17;
             // 
             // deleteOneCommentItem1
             // 
+            this.deleteOneCommentItem1.Caption = "删除批注";
             this.deleteOneCommentItem1.Id = 167;
             this.deleteOneCommentItem1.Name = "deleteOneCommentItem1";
             // 
             // deleteAllCommentsShownItem1
             // 
+            this.deleteAllCommentsShownItem1.Caption = "删除所有显示的批注";
             this.deleteAllCommentsShownItem1.Id = 168;
             this.deleteAllCommentsShownItem1.Name = "deleteAllCommentsShownItem1";
             // 
             // deleteAllCommentsItem1
             // 
+            this.deleteAllCommentsItem1.Caption = "删除所有批注";
             this.deleteAllCommentsItem1.Id = 169;
             this.deleteAllCommentsItem1.Name = "deleteAllCommentsItem1";
             // 
             // previousCommentItem1
             // 
+            this.previousCommentItem1.Caption = "上一个";
             this.previousCommentItem1.Id = 170;
             this.previousCommentItem1.Name = "previousCommentItem1";
+            toolTipTitleItem18.Text = "上一个";
+            toolTipItem18.LeftIndent = 6;
+            toolTipItem18.Text = "跳到上一个批注";
+            superToolTip18.Items.Add(toolTipTitleItem18);
+            superToolTip18.Items.Add(toolTipItem18);
+            this.previousCommentItem1.SuperTip = superToolTip18;
             // 
             // nextCommentItem1
             // 
+            this.nextCommentItem1.Caption = "下一个";
             this.nextCommentItem1.Id = 171;
             this.nextCommentItem1.Name = "nextCommentItem1";
+            toolTipTitleItem19.Text = "下一个";
+            toolTipItem19.LeftIndent = 6;
+            toolTipItem19.Text = "跳到下一个批注";
+            superToolTip19.Items.Add(toolTipTitleItem19);
+            superToolTip19.Items.Add(toolTipItem19);
+            this.nextCommentItem1.SuperTip = superToolTip19;
             // 
             // changeCommentItem1
             // 
+            this.changeCommentItem1.Caption = "查看批注";
             this.changeCommentItem1.Id = 172;
             this.changeCommentItem1.Name = "changeCommentItem1";
             // 
             // reviewersItem1
             // 
+            this.reviewersItem1.Caption = "批注者";
             this.reviewersItem1.Id = 173;
             this.reviewersItem1.Name = "reviewersItem1";
+            toolTipTitleItem20.Text = "批注者";
+            toolTipItem20.LeftIndent = 6;
+            toolTipItem20.Text = "选择曾经给这个文档增加过批注的人";
+            superToolTip20.Items.Add(toolTipTitleItem20);
+            superToolTip20.Items.Add(toolTipItem20);
+            this.reviewersItem1.SuperTip = superToolTip20;
             // 
             // reviewingPaneItem1
             // 
+            this.reviewingPaneItem1.Caption = "审阅窗格";
             this.reviewingPaneItem1.Id = 174;
             this.reviewingPaneItem1.Name = "reviewingPaneItem1";
+            toolTipTitleItem21.Text = "审阅窗格";
+            toolTipItem21.LeftIndent = 6;
+            toolTipItem21.Text = "在单独的窗口中显示或隐藏文档注释。";
+            superToolTip21.Items.Add(toolTipTitleItem21);
+            superToolTip21.Items.Add(toolTipItem21);
+            this.reviewingPaneItem1.SuperTip = superToolTip21;
             // 
             // insertMergeFieldItem1
             // 
+            this.insertMergeFieldItem1.Caption = "插入合并字段";
             this.insertMergeFieldItem1.Id = 175;
             this.insertMergeFieldItem1.Name = "insertMergeFieldItem1";
+            toolTipTitleItem22.Text = "插入合并字段";
+            toolTipItem22.LeftIndent = 6;
+            toolTipItem22.Text = "从收件人列表中增加一个字段或数据表的文档。";
+            superToolTip22.Items.Add(toolTipTitleItem22);
+            superToolTip22.Items.Add(toolTipItem22);
+            this.insertMergeFieldItem1.SuperTip = superToolTip22;
             // 
             // showAllFieldCodesItem1
             // 
+            this.showAllFieldCodesItem1.Caption = "显示所有\n区域的代码";
             this.showAllFieldCodesItem1.Id = 176;
             this.showAllFieldCodesItem1.Name = "showAllFieldCodesItem1";
+            toolTipTitleItem23.Text = "显示所有区域的代码";
+            toolTipItem23.LeftIndent = 6;
+            toolTipItem23.Text = "查看文档标记动态元素表现出富文本编码。";
+            superToolTip23.Items.Add(toolTipTitleItem23);
+            superToolTip23.Items.Add(toolTipItem23);
+            this.showAllFieldCodesItem1.SuperTip = superToolTip23;
             // 
             // showAllFieldResultsItem1
             // 
+            this.showAllFieldResultsItem1.Caption = "显示所有\n区域的结果";
             this.showAllFieldResultsItem1.Id = 177;
             this.showAllFieldResultsItem1.Name = "showAllFieldResultsItem1";
+            toolTipTitleItem24.Text = "显示所有区域的结果";
+            toolTipItem24.LeftIndent = 6;
+            toolTipItem24.Text = "查看文档内容和动态元素显示真实的数据。";
+            superToolTip24.Items.Add(toolTipTitleItem24);
+            superToolTip24.Items.Add(toolTipItem24);
+            this.showAllFieldResultsItem1.SuperTip = superToolTip24;
             // 
             // toggleViewMergedDataItem1
             // 
+            this.toggleViewMergedDataItem1.Caption = "查看合并\n后的数据";
             this.toggleViewMergedDataItem1.Id = 178;
             this.toggleViewMergedDataItem1.Name = "toggleViewMergedDataItem1";
+            toolTipTitleItem25.Text = "查看合并后的数据";
+            toolTipItem25.LeftIndent = 6;
+            toolTipItem25.Text = "取代了你的文档中的合并字段与实际数据从您的收件人列表,这样你就能看到它是什么样子。";
+            superToolTip25.Items.Add(toolTipTitleItem25);
+            superToolTip25.Items.Add(toolTipItem25);
+            this.toggleViewMergedDataItem1.SuperTip = superToolTip25;
             // 
             // insertTableOfContentsItem1
             // 
+            this.insertTableOfContentsItem1.Caption = "快速添加";
             this.insertTableOfContentsItem1.Id = 179;
             this.insertTableOfContentsItem1.Name = "insertTableOfContentsItem1";
+            toolTipTitleItem26.Text = "快速添加";
+            toolTipItem26.LeftIndent = 6;
+            toolTipItem26.Text = "将目录添加到文档中。\r\n\r\n一旦你已经添加了一个目录,点击快速添加按钮添加条目表。";
+            superToolTip26.Items.Add(toolTipTitleItem26);
+            superToolTip26.Items.Add(toolTipItem26);
+            this.insertTableOfContentsItem1.SuperTip = superToolTip26;
             // 
             // updateTableOfContentsItem1
             // 
+            this.updateTableOfContentsItem1.Caption = "更新目录";
             this.updateTableOfContentsItem1.Id = 180;
             this.updateTableOfContentsItem1.Name = "updateTableOfContentsItem1";
+            toolTipTitleItem27.Text = "更新目录";
+            toolTipItem27.LeftIndent = 6;
+            toolTipItem27.Text = "更新目录,以便所有条目指向正确的页码。";
+            superToolTip27.Items.Add(toolTipTitleItem27);
+            superToolTip27.Items.Add(toolTipItem27);
+            this.updateTableOfContentsItem1.SuperTip = superToolTip27;
             // 
             // addParagraphsToTableOfContentItem1
             // 
+            this.addParagraphsToTableOfContentItem1.Caption = "添加文本";
             this.addParagraphsToTableOfContentItem1.Id = 181;
             this.addParagraphsToTableOfContentItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.setParagraphHeadingLevelItem1),
@@ -1590,6 +1967,12 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.setParagraphHeadingLevelItem9),
             new DevExpress.XtraBars.LinkPersistInfo(this.setParagraphHeadingLevelItem10)});
             this.addParagraphsToTableOfContentItem1.Name = "addParagraphsToTableOfContentItem1";
+            toolTipTitleItem28.Text = "添加文本";
+            toolTipItem28.LeftIndent = 6;
+            toolTipItem28.Text = "表中添加当前段作为一个条目的内容。";
+            superToolTip28.Items.Add(toolTipTitleItem28);
+            superToolTip28.Items.Add(toolTipItem28);
+            this.addParagraphsToTableOfContentItem1.SuperTip = superToolTip28;
             // 
             // setParagraphHeadingLevelItem1
             // 
@@ -1653,20 +2036,29 @@
             // 
             // insertCaptionPlaceholderItem1
             // 
+            this.insertCaptionPlaceholderItem1.Caption = "插入标题";
             this.insertCaptionPlaceholderItem1.Id = 192;
             this.insertCaptionPlaceholderItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.insertFiguresCaptionItems1),
             new DevExpress.XtraBars.LinkPersistInfo(this.insertTablesCaptionItems1),
             new DevExpress.XtraBars.LinkPersistInfo(this.insertEquationsCaptionItems1)});
             this.insertCaptionPlaceholderItem1.Name = "insertCaptionPlaceholderItem1";
+            toolTipTitleItem29.Text = "插入标题";
+            toolTipItem29.LeftIndent = 6;
+            toolTipItem29.Text = "添加一个标题。\r\n\r\n标题下面出现的一行文本对象来描述它。";
+            superToolTip29.Items.Add(toolTipTitleItem29);
+            superToolTip29.Items.Add(toolTipItem29);
+            this.insertCaptionPlaceholderItem1.SuperTip = superToolTip29;
             // 
             // insertFiguresCaptionItems1
             // 
+            this.insertFiguresCaptionItems1.Caption = "图片标题";
             this.insertFiguresCaptionItems1.Id = 193;
             this.insertFiguresCaptionItems1.Name = "insertFiguresCaptionItems1";
             // 
             // insertTablesCaptionItems1
             // 
+            this.insertTablesCaptionItems1.Caption = "表格标题";
             this.insertTablesCaptionItems1.Id = 194;
             this.insertTablesCaptionItems1.Name = "insertTablesCaptionItems1";
             // 
@@ -1677,12 +2069,19 @@
             // 
             // insertTableOfFiguresPlaceholderItem1
             // 
+            this.insertTableOfFiguresPlaceholderItem1.Caption = "插入表";
             this.insertTableOfFiguresPlaceholderItem1.Id = 196;
             this.insertTableOfFiguresPlaceholderItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.insertTableOfFiguresItems1),
             new DevExpress.XtraBars.LinkPersistInfo(this.insertTableOfTablesItems1),
             new DevExpress.XtraBars.LinkPersistInfo(this.insertTableOfEquationsItems1)});
             this.insertTableOfFiguresPlaceholderItem1.Name = "insertTableOfFiguresPlaceholderItem1";
+            toolTipTitleItem30.Text = "插入表";
+            toolTipItem30.LeftIndent = 6;
+            toolTipItem30.Text = "将一个表的数据插入到文档中。\r\n\r\n数据表包含在文档中所有数据,表或方程。";
+            superToolTip30.Items.Add(toolTipTitleItem30);
+            superToolTip30.Items.Add(toolTipItem30);
+            this.insertTableOfFiguresPlaceholderItem1.SuperTip = superToolTip30;
             // 
             // insertTableOfFiguresItems1
             // 
@@ -1701,8 +2100,15 @@
             // 
             // updateTableOfFiguresItem1
             // 
+            this.updateTableOfFiguresItem1.Caption = "更新表";
             this.updateTableOfFiguresItem1.Id = 200;
             this.updateTableOfFiguresItem1.Name = "updateTableOfFiguresItem1";
+            toolTipTitleItem31.Text = "更新表";
+            toolTipItem31.LeftIndent = 6;
+            toolTipItem31.Text = "更新的表格数据文档中包含的所有条目。";
+            superToolTip31.Items.Add(toolTipTitleItem31);
+            superToolTip31.Items.Add(toolTipItem31);
+            this.updateTableOfFiguresItem1.SuperTip = superToolTip31;
             // 
             // changeSectionPageMarginsItem1
             // 
@@ -1715,31 +2121,48 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.setWideSectionPageMarginsItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.showPageMarginsSetupFormItem1, true)});
             this.changeSectionPageMarginsItem1.Name = "changeSectionPageMarginsItem1";
+            toolTipTitleItem33.Text = "页边距";
+            toolTipItem33.LeftIndent = 6;
+            toolTipItem33.Text = "选择所有页面的页面边距";
+            superToolTip33.Items.Add(toolTipTitleItem33);
+            superToolTip33.Items.Add(toolTipItem33);
+            this.changeSectionPageMarginsItem1.SuperTip = superToolTip33;
             // 
             // setNormalSectionPageMarginsItem1
             // 
+            this.setNormalSectionPageMarginsItem1.Caption = "正常\r\n顶部:      0.79\"     底部:      0.79\"\r\n左部:      1.18\"     右部:      0.59\"";
             this.setNormalSectionPageMarginsItem1.Id = 202;
             this.setNormalSectionPageMarginsItem1.Name = "setNormalSectionPageMarginsItem1";
             // 
             // setNarrowSectionPageMarginsItem1
             // 
+            this.setNarrowSectionPageMarginsItem1.Caption = "狭窄\r\n顶部:      0.5\"      底部:      0.5\"\r\n左部:      0.5\"      右部:      0.5\"";
             this.setNarrowSectionPageMarginsItem1.Id = 203;
             this.setNarrowSectionPageMarginsItem1.Name = "setNarrowSectionPageMarginsItem1";
             // 
             // setModerateSectionPageMarginsItem1
             // 
+            this.setModerateSectionPageMarginsItem1.Caption = "适中\r\n顶部:         1\"      底部:        1\"\r\n左部:     0.75\"      右部:     0.75\"";
             this.setModerateSectionPageMarginsItem1.Id = 204;
             this.setModerateSectionPageMarginsItem1.Name = "setModerateSectionPageMarginsItem1";
             // 
             // setWideSectionPageMarginsItem1
             // 
+            this.setWideSectionPageMarginsItem1.Caption = "宽广\r\n顶部:        1\"       底部:        1\"\r\n左部:        2\"       右部:        2\"";
             this.setWideSectionPageMarginsItem1.Id = 205;
             this.setWideSectionPageMarginsItem1.Name = "setWideSectionPageMarginsItem1";
             // 
             // showPageMarginsSetupFormItem1
             // 
+            this.showPageMarginsSetupFormItem1.Caption = "自定义边距...";
             this.showPageMarginsSetupFormItem1.Id = 206;
             this.showPageMarginsSetupFormItem1.Name = "showPageMarginsSetupFormItem1";
+            toolTipTitleItem32.Text = "自定义";
+            toolTipItem32.LeftIndent = 6;
+            toolTipItem32.Text = " 你可以根据喜好设定页边距";
+            superToolTip32.Items.Add(toolTipTitleItem32);
+            superToolTip32.Items.Add(toolTipItem32);
+            this.showPageMarginsSetupFormItem1.SuperTip = superToolTip32;
             // 
             // changeSectionPageOrientationItem1
             // 
@@ -1749,14 +2172,22 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.setPortraitPageOrientationItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.setLandscapePageOrientationItem1)});
             this.changeSectionPageOrientationItem1.Name = "changeSectionPageOrientationItem1";
+            toolTipTitleItem34.Text = "方向";
+            toolTipItem34.LeftIndent = 6;
+            toolTipItem34.Text = "切换垂直与水平布局";
+            superToolTip34.Items.Add(toolTipTitleItem34);
+            superToolTip34.Items.Add(toolTipItem34);
+            this.changeSectionPageOrientationItem1.SuperTip = superToolTip34;
             // 
             // setPortraitPageOrientationItem1
             // 
+            this.setPortraitPageOrientationItem1.Caption = "垂直";
             this.setPortraitPageOrientationItem1.Id = 208;
             this.setPortraitPageOrientationItem1.Name = "setPortraitPageOrientationItem1";
             // 
             // setLandscapePageOrientationItem1
             // 
+            this.setLandscapePageOrientationItem1.Caption = "水平";
             this.setLandscapePageOrientationItem1.Id = 209;
             this.setLandscapePageOrientationItem1.Name = "setLandscapePageOrientationItem1";
             // 
@@ -1765,6 +2196,12 @@
             this.changeSectionPaperKindItem1.Caption = "大小";
             this.changeSectionPaperKindItem1.Id = 210;
             this.changeSectionPaperKindItem1.Name = "changeSectionPaperKindItem1";
+            toolTipTitleItem35.Text = "大小";
+            toolTipItem35.LeftIndent = 6;
+            toolTipItem35.Text = "选择一个对当前部分的纸张大小。";
+            superToolTip35.Items.Add(toolTipTitleItem35);
+            superToolTip35.Items.Add(toolTipItem35);
+            this.changeSectionPaperKindItem1.SuperTip = superToolTip35;
             // 
             // changeSectionColumnsItem1
             // 
@@ -1776,24 +2213,34 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.setSectionThreeColumnsItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.showColumnsSetupFormItem1, true)});
             this.changeSectionColumnsItem1.Name = "changeSectionColumnsItem1";
+            toolTipTitleItem36.Text = "列";
+            toolTipItem36.LeftIndent = 6;
+            toolTipItem36.Text = "文本分割成两个或两个以上的列。";
+            superToolTip36.Items.Add(toolTipTitleItem36);
+            superToolTip36.Items.Add(toolTipItem36);
+            this.changeSectionColumnsItem1.SuperTip = superToolTip36;
             // 
             // setSectionOneColumnItem1
             // 
+            this.setSectionOneColumnItem1.Caption = "一列";
             this.setSectionOneColumnItem1.Id = 212;
             this.setSectionOneColumnItem1.Name = "setSectionOneColumnItem1";
             // 
             // setSectionTwoColumnsItem1
             // 
+            this.setSectionTwoColumnsItem1.Caption = "两列";
             this.setSectionTwoColumnsItem1.Id = 213;
             this.setSectionTwoColumnsItem1.Name = "setSectionTwoColumnsItem1";
             // 
             // setSectionThreeColumnsItem1
             // 
+            this.setSectionThreeColumnsItem1.Caption = "三列";
             this.setSectionThreeColumnsItem1.Id = 214;
             this.setSectionThreeColumnsItem1.Name = "setSectionThreeColumnsItem1";
             // 
             // showColumnsSetupFormItem1
             // 
+            this.showColumnsSetupFormItem1.Caption = "更多列...";
             this.showColumnsSetupFormItem1.Id = 215;
             this.showColumnsSetupFormItem1.Name = "showColumnsSetupFormItem1";
             // 
@@ -1808,6 +2255,12 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.insertSectionBreakEvenPageItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.insertSectionBreakOddPageItem1)});
             this.insertBreakItem1.Name = "insertBreakItem1";
+            toolTipTitleItem37.Text = "高级添加新页";
+            toolTipItem37.LeftIndent = 6;
+            toolTipItem37.Text = "添加页面,部分,或列。";
+            superToolTip37.Items.Add(toolTipTitleItem37);
+            superToolTip37.Items.Add(toolTipItem37);
+            this.insertBreakItem1.SuperTip = superToolTip37;
             // 
             // insertPageBreakItem1
             // 
@@ -1846,6 +2299,12 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.toggleParagraphSuppressLineNumbersItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.showLineNumberingFormItem1, true)});
             this.changeSectionLineNumberingItem1.Name = "changeSectionLineNumberingItem1";
+            toolTipTitleItem38.Text = "行数";
+            toolTipItem38.LeftIndent = 6;
+            toolTipItem38.Text = "在每一行的边缘处添加行号。";
+            superToolTip38.Items.Add(toolTipTitleItem38);
+            superToolTip38.Items.Add(toolTipItem38);
+            this.changeSectionLineNumberingItem1.SuperTip = superToolTip38;
             // 
             // setSectionLineNumberingNoneItem1
             // 
@@ -1882,10 +2341,16 @@
             this.changePageColorItem1.Caption = "界面颜色";
             this.changePageColorItem1.Id = 229;
             this.changePageColorItem1.Name = "changePageColorItem1";
+            toolTipTitleItem39.Text = "界面颜色";
+            toolTipItem39.LeftIndent = 6;
+            toolTipItem39.Text = "选择一个页面的背景颜色。";
+            superToolTip39.Items.Add(toolTipTitleItem39);
+            superToolTip39.Items.Add(toolTipItem39);
+            this.changePageColorItem1.SuperTip = superToolTip39;
             // 
             // insertPageBreakItem21
             // 
-            this.insertPageBreakItem21.Caption = "分页";
+            this.insertPageBreakItem21.Caption = "添加新页";
             this.insertPageBreakItem21.Id = 230;
             this.insertPageBreakItem21.Name = "insertPageBreakItem21";
             // 
@@ -1894,12 +2359,24 @@
             this.insertTableItem1.Caption = "表格";
             this.insertTableItem1.Id = 231;
             this.insertTableItem1.Name = "insertTableItem1";
+            toolTipTitleItem40.Text = "表格";
+            toolTipItem40.LeftIndent = 6;
+            toolTipItem40.Text = "插入一个表格";
+            superToolTip40.Items.Add(toolTipTitleItem40);
+            superToolTip40.Items.Add(toolTipItem40);
+            this.insertTableItem1.SuperTip = superToolTip40;
             // 
             // insertPictureItem1
             // 
             this.insertPictureItem1.Caption = "内嵌图片";
             this.insertPictureItem1.Id = 232;
             this.insertPictureItem1.Name = "insertPictureItem1";
+            toolTipTitleItem41.Text = "内嵌图片";
+            toolTipItem41.LeftIndent = 6;
+            toolTipItem41.Text = "增加一个内嵌图片";
+            superToolTip41.Items.Add(toolTipTitleItem41);
+            superToolTip41.Items.Add(toolTipItem41);
+            this.insertPictureItem1.SuperTip = superToolTip41;
             this.insertPictureItem1.Tag = "Inline Picture";
             // 
             // insertFloatingPictureItem1
@@ -1907,36 +2384,72 @@
             this.insertFloatingPictureItem1.Caption = "图片";
             this.insertFloatingPictureItem1.Id = 233;
             this.insertFloatingPictureItem1.Name = "insertFloatingPictureItem1";
+            toolTipTitleItem42.Text = "图片";
+            toolTipItem42.LeftIndent = 6;
+            toolTipItem42.Text = "添加一个图片";
+            superToolTip42.Items.Add(toolTipTitleItem42);
+            superToolTip42.Items.Add(toolTipItem42);
+            this.insertFloatingPictureItem1.SuperTip = superToolTip42;
             // 
             // insertBookmarkItem1
             // 
             this.insertBookmarkItem1.Caption = "书签";
             this.insertBookmarkItem1.Id = 234;
             this.insertBookmarkItem1.Name = "insertBookmarkItem1";
+            toolTipTitleItem43.Text = "书签";
+            toolTipItem43.LeftIndent = 6;
+            toolTipItem43.Text = "在一个文档中创建一个书签名称分配给一个特定点。\r\n\r\n你可以产生超链接，直接跳到一个书签的位置。";
+            superToolTip43.Items.Add(toolTipTitleItem43);
+            superToolTip43.Items.Add(toolTipItem43);
+            this.insertBookmarkItem1.SuperTip = superToolTip43;
             // 
             // insertHyperlinkItem1
             // 
             this.insertHyperlinkItem1.Caption = "超链接";
             this.insertHyperlinkItem1.Id = 235;
             this.insertHyperlinkItem1.Name = "insertHyperlinkItem1";
+            toolTipTitleItem44.Text = "超链接 (Ctrl+K)";
+            toolTipItem44.LeftIndent = 6;
+            toolTipItem44.Text = "创建链接到一个网页,一个图片,一个电子邮件地址,或者一个程序。";
+            superToolTip44.Items.Add(toolTipTitleItem44);
+            superToolTip44.Items.Add(toolTipItem44);
+            this.insertHyperlinkItem1.SuperTip = superToolTip44;
             // 
             // editPageHeaderItem1
             // 
             this.editPageHeaderItem1.Caption = "页眉";
             this.editPageHeaderItem1.Id = 236;
             this.editPageHeaderItem1.Name = "editPageHeaderItem1";
+            toolTipTitleItem45.Text = "页眉";
+            toolTipItem45.LeftIndent = 6;
+            toolTipItem45.Text = "编辑文档的标题。\r\n\r\n标题的内容将出现在每一个打印页面的顶部。";
+            superToolTip45.Items.Add(toolTipTitleItem45);
+            superToolTip45.Items.Add(toolTipItem45);
+            this.editPageHeaderItem1.SuperTip = superToolTip45;
             // 
             // editPageFooterItem1
             // 
             this.editPageFooterItem1.Caption = "页尾";
             this.editPageFooterItem1.Id = 237;
             this.editPageFooterItem1.Name = "editPageFooterItem1";
+            toolTipTitleItem46.Text = "页尾";
+            toolTipItem46.LeftIndent = 6;
+            toolTipItem46.Text = "编辑文档的页脚。\r\n\r\n页脚的内容将出现在每一个打印页面的底部。";
+            superToolTip46.Items.Add(toolTipTitleItem46);
+            superToolTip46.Items.Add(toolTipItem46);
+            this.editPageFooterItem1.SuperTip = superToolTip46;
             // 
             // insertPageNumberItem1
             // 
             this.insertPageNumberItem1.Caption = "页码";
             this.insertPageNumberItem1.Id = 238;
             this.insertPageNumberItem1.Name = "insertPageNumberItem1";
+            toolTipTitleItem47.Text = "页码";
+            toolTipItem47.LeftIndent = 6;
+            toolTipItem47.Text = "将页码插入到文档中。";
+            superToolTip47.Items.Add(toolTipTitleItem47);
+            superToolTip47.Items.Add(toolTipItem47);
+            this.insertPageNumberItem1.SuperTip = superToolTip47;
             // 
             // insertPageCountItem1
             // 
@@ -1949,36 +2462,72 @@
             this.insertTextBoxItem1.Caption = "文本框";
             this.insertTextBoxItem1.Id = 240;
             this.insertTextBoxItem1.Name = "insertTextBoxItem1";
+            toolTipTitleItem48.Text = "文本框";
+            toolTipItem48.LeftIndent = 6;
+            toolTipItem48.Text = "在文档中插入一个文本框。";
+            superToolTip48.Items.Add(toolTipTitleItem48);
+            superToolTip48.Items.Add(toolTipItem48);
+            this.insertTextBoxItem1.SuperTip = superToolTip48;
             // 
             // insertSymbolItem1
             // 
             this.insertSymbolItem1.Caption = "特殊符号";
             this.insertSymbolItem1.Id = 241;
             this.insertSymbolItem1.Name = "insertSymbolItem1";
+            toolTipTitleItem49.Text = "特殊符号";
+            toolTipItem49.LeftIndent = 6;
+            toolTipItem49.Text = "插入不在你的键盘上的符号,如版权符号,商标符号,段落标记和Unicode字符。";
+            superToolTip49.Items.Add(toolTipTitleItem49);
+            superToolTip49.Items.Add(toolTipItem49);
+            this.insertSymbolItem1.SuperTip = superToolTip49;
             // 
             // pasteItem1
             // 
             this.pasteItem1.Caption = "粘贴";
             this.pasteItem1.Id = 249;
             this.pasteItem1.Name = "pasteItem1";
+            toolTipTitleItem50.Text = "粘贴 (Ctrl+V)";
+            toolTipItem50.LeftIndent = 6;
+            toolTipItem50.Text = "将剪贴板的文字粘贴";
+            superToolTip50.Items.Add(toolTipTitleItem50);
+            superToolTip50.Items.Add(toolTipItem50);
+            this.pasteItem1.SuperTip = superToolTip50;
             // 
             // cutItem1
             // 
             this.cutItem1.Caption = "剪切";
             this.cutItem1.Id = 250;
             this.cutItem1.Name = "cutItem1";
+            toolTipTitleItem51.Text = "剪切 (Ctrl+X)";
+            toolTipItem51.LeftIndent = 6;
+            toolTipItem51.Text = "删除选中文字并复制到剪切板里";
+            superToolTip51.Items.Add(toolTipTitleItem51);
+            superToolTip51.Items.Add(toolTipItem51);
+            this.cutItem1.SuperTip = superToolTip51;
             // 
             // copyItem1
             // 
             this.copyItem1.Caption = "复制";
             this.copyItem1.Id = 251;
             this.copyItem1.Name = "copyItem1";
+            toolTipTitleItem52.Text = "复制 (Ctrl+C)";
+            toolTipItem52.LeftIndent = 6;
+            toolTipItem52.Text = "复制选中内容到剪切板";
+            superToolTip52.Items.Add(toolTipTitleItem52);
+            superToolTip52.Items.Add(toolTipItem52);
+            this.copyItem1.SuperTip = superToolTip52;
             // 
             // pasteSpecialItem1
             // 
             this.pasteSpecialItem1.Caption = "选择性粘贴";
             this.pasteSpecialItem1.Id = 252;
             this.pasteSpecialItem1.Name = "pasteSpecialItem1";
+            toolTipTitleItem53.Text = "选择性粘贴 (Ctrl+Alt+V)";
+            toolTipItem53.LeftIndent = 6;
+            toolTipItem53.Text = "可以选择粘贴方式";
+            superToolTip53.Items.Add(toolTipTitleItem53);
+            superToolTip53.Items.Add(toolTipItem53);
+            this.pasteSpecialItem1.SuperTip = superToolTip53;
             // 
             // barButtonGroup1
             // 
@@ -2284,41 +2833,72 @@
             this.findItem1.Caption = "寻找";
             this.findItem1.Id = 294;
             this.findItem1.Name = "findItem1";
+            toolTipTitleItem54.Text = "寻找 (Ctrl+F)";
+            toolTipItem54.LeftIndent = 6;
+            toolTipItem54.Text = "查找文中的内容";
+            superToolTip54.Items.Add(toolTipTitleItem54);
+            superToolTip54.Items.Add(toolTipItem54);
+            this.findItem1.SuperTip = superToolTip54;
             // 
             // replaceItem1
             // 
             this.replaceItem1.Caption = "代替";
             this.replaceItem1.Id = 295;
             this.replaceItem1.Name = "replaceItem1";
+            toolTipTitleItem55.Text = "代替 (Ctrl+H)";
+            toolTipItem55.LeftIndent = 6;
+            toolTipItem55.Text = "替换文档中的内容";
+            superToolTip55.Items.Add(toolTipTitleItem55);
+            superToolTip55.Items.Add(toolTipItem55);
+            this.replaceItem1.SuperTip = superToolTip55;
             // 
             // undoItem1
             // 
             this.undoItem1.Caption = "撤销";
             this.undoItem1.Id = 296;
             this.undoItem1.Name = "undoItem1";
-            toolTipTitleItem1.Text = "Undo (Ctrl+Z)";
-            toolTipItem1.Text = "Undo the last operation.";
-            superToolTip1.Items.Add(toolTipTitleItem1);
-            superToolTip1.Items.Add(toolTipItem1);
-            this.undoItem1.SuperTip = superToolTip1;
+            toolTipTitleItem56.Text = "撤销 (Ctrl+Z)";
+            toolTipItem56.LeftIndent = 6;
+            toolTipItem56.Text = "撤销上一次操作";
+            superToolTip56.Items.Add(toolTipTitleItem56);
+            superToolTip56.Items.Add(toolTipItem56);
+            this.undoItem1.SuperTip = superToolTip56;
             // 
             // redoItem1
             // 
             this.redoItem1.Caption = "重做";
             this.redoItem1.Id = 306;
             this.redoItem1.Name = "redoItem1";
+            toolTipTitleItem57.Text = "重做 (Ctrl+Y)";
+            toolTipItem57.LeftIndent = 6;
+            toolTipItem57.Text = "重做下一个操作";
+            superToolTip57.Items.Add(toolTipTitleItem57);
+            superToolTip57.Items.Add(toolTipItem57);
+            this.redoItem1.SuperTip = superToolTip57;
             // 
             // fileNewItem1
             // 
             this.fileNewItem1.Caption = "新建";
             this.fileNewItem1.Id = 298;
             this.fileNewItem1.Name = "fileNewItem1";
+            toolTipTitleItem58.Text = "新建 (Ctrl+N)";
+            toolTipItem58.LeftIndent = 6;
+            toolTipItem58.Text = "新建一个文档";
+            superToolTip58.Items.Add(toolTipTitleItem58);
+            superToolTip58.Items.Add(toolTipItem58);
+            this.fileNewItem1.SuperTip = superToolTip58;
             // 
             // fileSaveAsItem1
             // 
             this.fileSaveAsItem1.Caption = "另存为";
             this.fileSaveAsItem1.Id = 301;
             this.fileSaveAsItem1.Name = "fileSaveAsItem1";
+            toolTipTitleItem59.Text = "另存为 (F12)";
+            toolTipItem59.LeftIndent = 6;
+            toolTipItem59.Text = "将该文件储存到新的地址";
+            superToolTip59.Items.Add(toolTipTitleItem59);
+            superToolTip59.Items.Add(toolTipItem59);
+            this.fileSaveAsItem1.SuperTip = superToolTip59;
             this.fileSaveAsItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.fileSave_ItemClick);
             // 
             // quickPrintItem1
@@ -2326,24 +2906,48 @@
             this.quickPrintItem1.Caption = "&快捷打印";
             this.quickPrintItem1.Id = 302;
             this.quickPrintItem1.Name = "quickPrintItem1";
+            toolTipTitleItem60.Text = "&快捷打印";
+            toolTipItem60.LeftIndent = 6;
+            toolTipItem60.Text = "使用默认设置打印此文档";
+            superToolTip60.Items.Add(toolTipTitleItem60);
+            superToolTip60.Items.Add(toolTipItem60);
+            this.quickPrintItem1.SuperTip = superToolTip60;
             // 
             // printItem1
             // 
             this.printItem1.Caption = "&打印";
             this.printItem1.Id = 303;
             this.printItem1.Name = "printItem1";
+            toolTipTitleItem61.Text = "&打印 (Ctrl+P)";
+            toolTipItem61.LeftIndent = 6;
+            toolTipItem61.Text = "将这个文档传至打印机";
+            superToolTip61.Items.Add(toolTipTitleItem61);
+            superToolTip61.Items.Add(toolTipItem61);
+            this.printItem1.SuperTip = superToolTip61;
             // 
             // printPreviewItem1
             // 
             this.printPreviewItem1.Caption = "打印预览";
             this.printPreviewItem1.Id = 304;
             this.printPreviewItem1.Name = "printPreviewItem1";
+            toolTipTitleItem62.Text = "打印预览";
+            toolTipItem62.LeftIndent = 6;
+            toolTipItem62.Text = "打印前预览";
+            superToolTip62.Items.Add(toolTipTitleItem62);
+            superToolTip62.Items.Add(toolTipItem62);
+            this.printPreviewItem1.SuperTip = superToolTip62;
             // 
             // showDocumentPropertiesFormItem1
             // 
             this.showDocumentPropertiesFormItem1.Caption = "文档属性";
             this.showDocumentPropertiesFormItem1.Id = 305;
             this.showDocumentPropertiesFormItem1.Name = "showDocumentPropertiesFormItem1";
+            toolTipTitleItem63.Text = "文档属性";
+            toolTipItem63.LeftIndent = 6;
+            toolTipItem63.Text = "显示此文档的属性";
+            superToolTip63.Items.Add(toolTipTitleItem63);
+            superToolTip63.Items.Add(toolTipItem63);
+            this.showDocumentPropertiesFormItem1.SuperTip = superToolTip63;
             // 
             // barButtonItem1
             // 
@@ -2645,6 +3249,7 @@
             this.linksRibbonPageGroup1.ItemLinks.Add(this.insertBookmarkItem1);
             this.linksRibbonPageGroup1.ItemLinks.Add(this.insertHyperlinkItem1);
             this.linksRibbonPageGroup1.Name = "linksRibbonPageGroup1";
+            this.linksRibbonPageGroup1.Text = "链接";
             // 
             // headerFooterRibbonPageGroup1
             // 
@@ -2701,7 +3306,7 @@
             this.tableOfContentsRibbonPageGroup1,
             this.captionsRibbonPageGroup1});
             this.referencesRibbonPage1.Name = "referencesRibbonPage1";
-            this.referencesRibbonPage1.Text = "引用";
+            this.referencesRibbonPage1.Text = "目录与标题";
             // 
             // tableOfContentsRibbonPageGroup1
             // 
@@ -2709,6 +3314,7 @@
             this.tableOfContentsRibbonPageGroup1.ItemLinks.Add(this.updateTableOfContentsItem1);
             this.tableOfContentsRibbonPageGroup1.ItemLinks.Add(this.addParagraphsToTableOfContentItem1);
             this.tableOfContentsRibbonPageGroup1.Name = "tableOfContentsRibbonPageGroup1";
+            this.tableOfContentsRibbonPageGroup1.Text = "文档目录";
             // 
             // captionsRibbonPageGroup1
             // 
@@ -2716,6 +3322,7 @@
             this.captionsRibbonPageGroup1.ItemLinks.Add(this.insertTableOfFiguresPlaceholderItem1);
             this.captionsRibbonPageGroup1.ItemLinks.Add(this.updateTableOfFiguresItem1);
             this.captionsRibbonPageGroup1.Name = "captionsRibbonPageGroup1";
+            this.captionsRibbonPageGroup1.Text = "附件标题";
             // 
             // mailingsRibbonPage1
             // 
@@ -2731,6 +3338,7 @@
             this.mailMergeRibbonPageGroup1.ItemLinks.Add(this.showAllFieldResultsItem1);
             this.mailMergeRibbonPageGroup1.ItemLinks.Add(this.toggleViewMergedDataItem1);
             this.mailMergeRibbonPageGroup1.Name = "mailMergeRibbonPageGroup1";
+            this.mailMergeRibbonPageGroup1.Text = "邮件";
             // 
             // reviewRibbonPage1
             // 
@@ -2747,6 +3355,7 @@
             this.documentProofingRibbonPageGroup1.ItemLinks.Add(this.checkSpellingItem1);
             this.documentProofingRibbonPageGroup1.ItemLinks.Add(this.changeLanguageItem1);
             this.documentProofingRibbonPageGroup1.Name = "documentProofingRibbonPageGroup1";
+            this.documentProofingRibbonPageGroup1.Text = "检验";
             // 
             // documentProtectionRibbonPageGroup1
             // 
@@ -2754,6 +3363,7 @@
             this.documentProtectionRibbonPageGroup1.ItemLinks.Add(this.changeRangeEditingPermissionsItem1);
             this.documentProtectionRibbonPageGroup1.ItemLinks.Add(this.unprotectDocumentItem1);
             this.documentProtectionRibbonPageGroup1.Name = "documentProtectionRibbonPageGroup1";
+            this.documentProtectionRibbonPageGroup1.Text = "文档保护";
             // 
             // documentCommentRibbonPageGroup1
             // 
@@ -2762,6 +3372,7 @@
             this.documentCommentRibbonPageGroup1.ItemLinks.Add(this.previousCommentItem1);
             this.documentCommentRibbonPageGroup1.ItemLinks.Add(this.nextCommentItem1);
             this.documentCommentRibbonPageGroup1.Name = "documentCommentRibbonPageGroup1";
+            this.documentCommentRibbonPageGroup1.Text = "批注";
             // 
             // documentTrackingRibbonPageGroup1
             // 
@@ -2769,6 +3380,7 @@
             this.documentTrackingRibbonPageGroup1.ItemLinks.Add(this.reviewersItem1);
             this.documentTrackingRibbonPageGroup1.ItemLinks.Add(this.reviewingPaneItem1);
             this.documentTrackingRibbonPageGroup1.Name = "documentTrackingRibbonPageGroup1";
+            this.documentTrackingRibbonPageGroup1.Text = "追寻痕迹";
             // 
             // viewRibbonPage1
             // 
@@ -2786,18 +3398,21 @@
             this.documentViewsRibbonPageGroup1.ItemLinks.Add(this.switchToDraftViewItem1);
             this.documentViewsRibbonPageGroup1.ItemLinks.Add(this.switchToPrintLayoutViewItem1);
             this.documentViewsRibbonPageGroup1.Name = "documentViewsRibbonPageGroup1";
+            this.documentViewsRibbonPageGroup1.Text = "视图设置";
             // 
             // showRibbonPageGroup1
             // 
             this.showRibbonPageGroup1.ItemLinks.Add(this.toggleShowHorizontalRulerItem1);
             this.showRibbonPageGroup1.ItemLinks.Add(this.toggleShowVerticalRulerItem1);
             this.showRibbonPageGroup1.Name = "showRibbonPageGroup1";
+            this.showRibbonPageGroup1.Text = "显示标尺";
             // 
             // zoomRibbonPageGroup1
             // 
             this.zoomRibbonPageGroup1.ItemLinks.Add(this.zoomOutItem1);
             this.zoomRibbonPageGroup1.ItemLinks.Add(this.zoomInItem1);
             this.zoomRibbonPageGroup1.Name = "zoomRibbonPageGroup1";
+            this.zoomRibbonPageGroup1.Text = "放大与缩小";
             // 
             // ribbonPageSkins
             // 
@@ -2811,12 +3426,12 @@
             this.skinsRibbonPageGroup.ItemLinks.Add(this.rgbiSkins);
             this.skinsRibbonPageGroup.Name = "skinsRibbonPageGroup";
             this.skinsRibbonPageGroup.ShowCaptionButton = false;
-            toolTipTitleItem2.Text = "皮肤";
-            toolTipItem2.LeftIndent = 6;
-            toolTipItem2.Text = "选择你自己喜欢的皮肤";
-            superToolTip2.Items.Add(toolTipTitleItem2);
-            superToolTip2.Items.Add(toolTipItem2);
-            this.skinsRibbonPageGroup.SuperTip = superToolTip2;
+            toolTipTitleItem64.Text = "皮肤";
+            toolTipItem64.LeftIndent = 6;
+            toolTipItem64.Text = "选择你自己喜欢的皮肤";
+            superToolTip64.Items.Add(toolTipTitleItem64);
+            superToolTip64.Items.Add(toolTipItem64);
+            this.skinsRibbonPageGroup.SuperTip = superToolTip64;
             this.skinsRibbonPageGroup.Text = "皮肤";
             // 
             // helpRibbonPage
