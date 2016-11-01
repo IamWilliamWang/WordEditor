@@ -1,18 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 using DevExpress.XtraBars;
-using DevExpress.XtraBars.Ribbon;
 using DevExpress.XtraBars.Helpers;
-using DevExpress.Skins;
-using DevExpress.LookAndFeel;
-using DevExpress.UserSkins;
-
+using System.IO;
 
 namespace WordEditor
 {
@@ -38,15 +27,41 @@ namespace WordEditor
         
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (!hasSaved && richEditControl.CanUndo && DialogResult.Cancel == MessageBox.Show("不保存直接退出？", "退出", MessageBoxButtons.OKCancel, MessageBoxIcon.Question)) {
+            DialogResult dialogResult = new DialogResult();
+            dialogResult = MessageBox.Show("检测到有修改，是否保存后再退出？","退出程序",MessageBoxButtons.YesNoCancel,MessageBoxIcon.Information);
+            if(dialogResult==DialogResult.Yes)
+            {
+                richEditControl.SaveDocument();
+            }
+            else if(dialogResult==DialogResult.Cancel)
+            {
                 e.Cancel = true;
-            };
+            }
+            //if (!hasSaved && richEditControl.CanUndo && DialogResult.Cancel == MessageBox.Show("不保存直接退出？", "退出", MessageBoxButtons.OKCancel, MessageBoxIcon.Question)) {
+            //    e.Cancel = true;
+            //};
         }
 
         private void iHelp_ItemClick(object sender, ItemClickEventArgs e)
         {
-            MessageBox.Show("请打开帮助文档");
-            richEditControl.LoadDocument("help.doc");
+            DialogResult dialogResult = new DialogResult();
+            dialogResult = MessageBox.Show("接下来的操作将会关闭当前文档，是否需要保存文档？", "即将打开帮助文档", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if(dialogResult==DialogResult.Yes)
+            {
+                richEditControl.SaveDocument();
+                if (File.Exists("Word文档编辑器使用手册.docx"))
+                    richEditControl.LoadDocument("Word文档编辑器使用手册.docx");
+                else
+                    MessageBox.Show("打开失败，找不到使用手册");
+            }
+            else if(dialogResult==DialogResult.No)
+            {
+                if (File.Exists("Word文档编辑器使用手册.docx"))
+                    richEditControl.LoadDocument("Word文档编辑器使用手册.docx");
+                else
+                    MessageBox.Show("打开失败，找不到使用手册");
+            }
+            
         }
 
         private void iAbout_ItemClick(object sender, ItemClickEventArgs e)
