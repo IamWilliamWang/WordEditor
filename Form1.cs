@@ -27,6 +27,7 @@ namespace WordEditor
         
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            if (hasSaved || !richEditControl.CanUndo) return;
             DialogResult dialogResult = new DialogResult();
             dialogResult = MessageBox.Show("检测到有修改，是否保存后再退出？","退出程序",MessageBoxButtons.YesNoCancel,MessageBoxIcon.Information);
             if(dialogResult==DialogResult.Yes)
